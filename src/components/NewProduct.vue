@@ -25,7 +25,7 @@
       </Form>
     </div>
     <div v-else>
-      <h4>Продукт "{{ this.product_name.toLowerCase() }}" успешно создан!</h4>
+      <h4>Продукт "{{ this.product_name.toLowerCase().trim() }}" успешно создан!</h4>
       <h6>Теперь вы можете добавить его в корзину калорий!</h6>
     </div>
   </div>
